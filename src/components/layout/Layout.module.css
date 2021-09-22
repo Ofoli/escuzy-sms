@@ -1,0 +1,30 @@
+/* HEADER */
+
+/* CONTENT */
+
+
+.content{
+    width: 80%;
+    margin: 0 10%;
+    height:700px;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 150px;
+    /* position: absolute;
+    bottom: 0; */
+    background-color: rgb(4, 26, 54);
+    color:white;
+    font-weight: bold;
+}
+.footerRow{
+    color:aquamarine;
+}
+.footerLinks{
+    color: grey;
+    text-decoration: none;
+}
