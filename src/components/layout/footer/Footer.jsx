@@ -2,6 +2,7 @@ import { Grid } from "@material-ui/core";
 
 import colors from "../../../globals/colors";
 import { Navigate, Company, Download } from "./rows";
+import FollowUs from "./follow-us";
 
 const styles = {
   footer: {
@@ -57,8 +58,14 @@ export default function Footer() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item>copyright</Grid>
-        <Grid item>social media handles</Grid>
+        <Grid item>
+          <FollowUs />
+        </Grid>
+        <Grid item>
+          <p style={{ marginBottom: "10px" }}>
+            copyright @2021 All rights reserved | Join the luxstek team today
+          </p>
+        </Grid>
       </Grid>
     </footer>
   );
