@@ -1,0 +1,22 @@
+.main_banner {
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+}
+
+.banner_text {
+  width: "80%";
+  margin: 10% 0;
+  margin-left: 20%;
+  text-align: left;
+}
+
+.banner_text h2 {
+  margin: 20px;
+  font-size: bolder;
+}
+.banner_text p {
+  margin: 5px 20px;
+  font-size: large;
+  width: 90%;
+}
