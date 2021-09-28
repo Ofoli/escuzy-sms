@@ -30,7 +30,7 @@ export default function FollowUs(props) {
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="Ghana, Accra"
+              primary="Accra, Ghana"
               secondary="Mateheko Samson Street"
             />
           </ListItem>

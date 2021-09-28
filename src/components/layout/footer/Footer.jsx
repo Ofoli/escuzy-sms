@@ -1,8 +1,10 @@
 import { Grid } from "@material-ui/core";
 
+import logo from "../../../Assets/logo.jpeg";
 import colors from "../../../globals/colors";
 import { Navigate, Company, Download } from "./rows";
 import FollowUs from "./follow-us";
+import { style } from "@mui/system";
 
 const styles = {
   footer: {
@@ -20,6 +22,11 @@ const styles = {
     height: "70px",
     display: "flex",
   },
+  logo: {
+    width: "60px",
+    height: "50px",
+    marginRight: "5px",
+  },
   par: {
     wordSpacing: "5px",
     textAlign: "left",
@@ -36,7 +43,7 @@ export default function Footer() {
             <Grid item xs={12} lg={3}>
               <div style={styles.description}>
                 <div style={styles.logoDiv}>
-                  <p>logo</p>
+                  <img style={styles.logo} src={logo} alt="logo" />
                   <h1>ESCUZY</h1>
                 </div>
                 <p style={styles.par}>
